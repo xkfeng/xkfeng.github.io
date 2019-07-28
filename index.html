@@ -8,6 +8,23 @@
 <link rel="stylesheet" href="./css/jemdoc.css" type="text/css">
 <title>Feng Xiaokang</title>
 
+<!-- some self defined actions using jquery -->
+<script src="jquery-3.4.1.min.js"></script>
+<script>
+  $(document).ready(function(){
+
+    /* hide and show an element */
+    $("#whatis").click(function(){
+      if ($("#whatis-content").is(":hidden")){
+        $("#whatis-content").show();
+      }else{
+        $("#whatis-content").hide();
+      }
+    });
+  });
+</script>
+
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -16,6 +33,9 @@
 
   ga('create', 'UA-99569700-1', 'auto');
   ga('send', 'pageview');
+
+
+  
 
 </script>
 
@@ -132,6 +152,33 @@
 
 <h2>Models</h2>
 <p><a href="https://sites.google.com/site/panxupi/publications">Xu Pan: Space-filling curves</a></p>
+
+
+<!-- Xiaokang Dictionary -->
+<h2 id="whatis">WhatIs</h2>
+<div id="whatis-content" style="display: none; ">
+  <ul>
+    <li>笔：一种受控制在介质上留下持久的可视痕迹的工具
+      <p>
+      举例：比较直观的笔，如毛笔，铅笔，粉笔。都是由人用手控制，在纸或者黑板（介质）上留下可视痕迹，而且痕迹持久。
+      延伸出来，投影仪也是一种笔。由人控制（程序），在幕布（介质）上留下可视痕迹，而且持久。
+      再比如，烽火狼烟也是一种笔。由士兵控制（点燃干柴、湿柴、油脂等），在天空（介质）中留下可视痕迹（烟），而且要持久（让远方的人能够注意到）。
+
+      手机上的输入法也是一种笔，用户点击屏幕上的指定区域（操控），手机在另一个区域出现可视痕迹（点亮屏幕像素分布），而且持久。
+
+      所以，笔是一种非常基本的工具。
+      </p>
+
+    <li>兴趣：一种想要主动参与某一活动的情感</li>
+    <li>爱好：一种因兴趣而长期参与的活动</li>
+    <li>工作：一种通过付出劳动获得报酬的活动</li>
+
+    <li>职业：一种持久从事的工作。
+  </ul>
+</div>
+
+
+
 
 
 <div id="footer">
